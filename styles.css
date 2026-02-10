@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #f4f4f4;
+  color: #111;
+}
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+header {
+  background: #4b4bff;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#verseBox {
+  padding: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+}
+
+li {
+  cursor: pointer;
+  padding: 5px;
+}
